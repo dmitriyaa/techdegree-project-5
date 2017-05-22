@@ -442,6 +442,9 @@ ul {
   display: block;
   padding: 13px 15px; }
 
+.prof-img {
+  max-width: 367px; }
+
 .main-container {
   margin-top: 50px;
   margin-bottom: 50px; }
@@ -469,6 +472,38 @@ ul {
   padding-right: 1em;
   padding-left: 1em; }
 
+.portfolio {
+  padding-top: 2em;
+  padding-bottom: 1em; }
+
+.portfolio-list {
+  margin-top: 2.5em; }
+
+.portfolio-list li h3 {
+  margin-top: 1.5em;
+  font-size: 1.6em;
+  font-weight: 600; }
+
+.skills {
+  border-top: 2px solid #2980B9;
+  padding-top: 1em;
+  padding-bottom: 2em; }
+
+.skills-list li {
+  float: left;
+  width: 46%;
+  margin: 2%; }
+
+.contact ul li {
+  font-size: 1.3em; }
+
+.contact li a {
+  color: #feeb6e;
+  border-bottom: 2px dotted #feeb6e; }
+
+.contact li a:hover {
+  border-bottom: 3px dotted #feeb6e; }
+
 .footer-name {
   float: left;
   font-size: 1.3em; }
@@ -486,46 +521,6 @@ footer nav {
 .footer-desctop {
   display: none; }
 
-/* ---- About ---- */
-.prof-img {
-  max-width: 367px; }
-
-/* ---- Portfolio ---- */
-.portfolio {
-  padding-top: 2em;
-  padding-bottom: 1em; }
-
-.portfolio-list {
-  margin-top: 2.5em; }
-
-.portfolio-list li h3 {
-  margin-top: 1.5em;
-  font-size: 1.6em;
-  font-weight: 600; }
-
-/* ---- Skills ---- */
-.skills {
-  border-top: 2px solid #2980B9;
-  padding-top: 1em;
-  padding-bottom: 2em; }
-
-.skills-list li {
-  float: left;
-  width: 46%;
-  margin: 2%; }
-
-/* ---- Contact ---- */
-.contact ul li {
-  font-size: 1.3em; }
-
-.contact li a {
-  color: #feeb6e;
-  border-bottom: 2px dotted #feeb6e; }
-
-.contact li a:hover {
-  border-bottom: 3px dotted #feeb6e; }
-
-/* ---- Footer ---- */
 /*-----------------------------------------------
    Media Queries
 -----------------------------------------------*/
