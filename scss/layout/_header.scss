@@ -3,14 +3,16 @@
    font-weight: 700;
 }
 
-.main-nav li {
-   background-color: #18222B;
-   margin: .5em .5em;
-}
+.main-nav {
+   li {
+      background-color: #18222B;
+      margin: .5em .5em;
+   }
 
-.main-nav a {
+   a {
    text-transform: uppercase;
    font-weight: 600;
    display: block;
    padding: 13px 15px;
+   }
 }

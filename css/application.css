@@ -435,7 +435,6 @@ ul {
 .main-nav li {
   background-color: #18222B;
   margin: .5em .5em; }
-
 .main-nav a {
   text-transform: uppercase;
   font-weight: 600;
@@ -478,11 +477,10 @@ ul {
 
 .portfolio-list {
   margin-top: 2.5em; }
-
-.portfolio-list li h3 {
-  margin-top: 1.5em;
-  font-size: 1.6em;
-  font-weight: 600; }
+  .portfolio-list li h3 {
+    margin-top: 1.5em;
+    font-size: 1.6em;
+    font-weight: 600; }
 
 .skills {
   border-top: 2px solid #2980B9;
