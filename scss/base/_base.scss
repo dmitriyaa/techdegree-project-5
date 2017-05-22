@@ -1,0 +1,40 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   color: #3a3a3a;
+   line-height: 1.6;
+   background-color: #2980B9;
+   text-align: center;
+}
+
+p {
+	font-size: 1.2em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #3a3a3a;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+}
+
+ul {
+   list-style: none;
+   padding-left: 0;
+}
