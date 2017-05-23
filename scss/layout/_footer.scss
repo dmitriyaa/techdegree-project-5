@@ -11,6 +11,7 @@
 }
 
 footer nav {
+   @extend %clearfix;
    border-top: 1px solid #fff;
    padding-top: 1.5em;
 }

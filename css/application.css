@@ -1,5 +1,5 @@
 /* ---- Float clearfix ---- */
-.clearfix::after {
+.main-header nav::after, .about::after, .portfolio-list::after, .skills-list::after, footer nav::after {
   content: " ";
   display: table;
   clear: both; }
