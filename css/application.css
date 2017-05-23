@@ -428,22 +428,6 @@ ul {
   list-style: none;
   padding-left: 0; }
 
-.name {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700; }
-
-.main-nav li {
-  background-color: #18222B;
-  margin: .5em .5em; }
-.main-nav a {
-  text-transform: uppercase;
-  font-weight: 600;
-  display: block;
-  padding: 13px 15px; }
-  .main-nav a:hover {
-    font-weight: 700;
-    color: #fff; }
-
 .prof-img {
   max-width: 367px; }
 
@@ -476,9 +460,7 @@ ul {
 .portfolio-list {
   margin-top: 2.5em; }
   .portfolio-list li h3 {
-    margin-top: 1.5em;
-    font-size: 1.6em;
-    font-weight: 600; }
+    margin-top: 1.5em; }
 
 .skills {
   border-top: 2px solid #2980B9;
@@ -490,6 +472,40 @@ ul {
   width: 46%;
   margin: 2%; }
 
+.footer-name {
+  float: left; }
+
+.footer-nav {
+  margin: 0;
+  float: right; }
+
+footer nav {
+  border-top: 1px solid #fff;
+  padding-top: 1.5em; }
+
+.footer-desctop {
+  display: none; }
+
+.name {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700; }
+
+.main-nav li {
+  background-color: #18222B;
+  margin: .5em .5em; }
+.main-nav a {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  padding: 13px 15px; }
+  .main-nav a:hover {
+    font-weight: 700;
+    color: #fff; }
+
+.portfolio-list li h3 {
+  font-size: 1.6em;
+  font-weight: 600; }
+
 .contact li {
   font-size: 1.3em; }
   .contact li a {
@@ -499,21 +515,11 @@ ul {
       border-bottom: 3px dotted #feeb6e; }
 
 .footer-name {
-  float: left;
   font-size: 1.3em; }
 
 .footer-nav {
-  margin: 0;
-  float: right;
   text-transform: uppercase;
   font-weight: 700; }
-
-footer nav {
-  border-top: 1px solid #fff;
-  padding-top: 1.5em; }
-
-.footer-desctop {
-  display: none; }
 
 /*-----------------------------------------------
    Media Queries

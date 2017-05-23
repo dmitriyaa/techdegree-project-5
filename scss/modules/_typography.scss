@@ -1,0 +1,54 @@
+.name {
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 700;
+}
+
+.main-nav {
+   li {
+      background-color: #18222B;
+      margin: .5em .5em;
+   }
+
+   a {
+      text-transform: uppercase;
+      font-weight: 600;
+      display: block;
+      padding: 13px 15px;
+
+      &:hover {
+         font-weight: 700;
+         color: #fff;
+      }
+   }
+}
+
+.portfolio-list {
+   li h3 {
+      font-size: 1.6em;
+      font-weight: 600;
+   }
+}
+
+.contact {
+   li {
+      font-size: 1.3em;
+
+      a {
+         color: #feeb6e;
+         border-bottom: 2px dotted #feeb6e;
+
+         &:hover {
+            border-bottom: 3px dotted #feeb6e;
+         }
+      }
+   }
+}
+
+.footer-name {
+   font-size: 1.3em;
+}
+
+.footer-nav {
+   text-transform: uppercase;
+   font-weight: 700;
+}
