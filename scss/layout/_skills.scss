@@ -4,8 +4,12 @@
    padding-bottom: 2em;
 }
 
-.skills-list li {
-   float: left;
-   width: 46%;
-   margin: 2%;
+.skills-list {
+   @extend %clearfix;
+
+   li {
+      float: left;
+      width: 46%;
+      margin: 2%;
+   }
 }
