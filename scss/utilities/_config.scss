@@ -27,7 +27,10 @@ $color-body-light     : $white;
 $color-body-base      : $mariner;
 $color-body-dark      : $mirage;
 
-// Font stacks
-
+//Font stacks
 $stack-sans-serif   : Helvetica, Arial, sans-serif;
 $stack-open-sans    :'Open Sans', $stack-sans-serif;
+
+//Media query breakpoints
+$brk-narrow : 768px;
+$brk-wide   : 1024px; 

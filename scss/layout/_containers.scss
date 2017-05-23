@@ -25,4 +25,9 @@
 .container {
    padding-right: 1em;
    padding-left: 1em;
+
+   @include mq(tablet) {
+      width: 95%;
+      margin: 0 auto;
+   };
 }

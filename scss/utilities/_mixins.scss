@@ -1,4 +1,14 @@
-
-@mixin mq() {
-   
+//Media queries
+@mixin mq($break) {
+   @if $break == "tablet" {
+      @media (min-width: $brk-narrow) {
+         @content;
+      }
+   } @else if $break == "desktop" {
+      @media (min-width: $brk-wide) {
+         @content;
+      }
+   } @else {
+      @error "Whoops! No value could be retrived for '#{$break}'";
+   }
 }

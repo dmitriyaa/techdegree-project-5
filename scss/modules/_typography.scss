@@ -7,6 +7,11 @@
    li {
       background-color: $color-body-dark;
       margin: .5em .5em;
+
+      @include mq(tablet){
+         display: inline-block;
+         background-color: inherit;
+      };
    }
 
    a {
@@ -42,6 +47,11 @@
          }
       }
    }
+
+   @include mq(tablet) {
+      margin-top: 3em;
+      margin-bottom: 4em;
+   };
 }
 
 .footer-name {

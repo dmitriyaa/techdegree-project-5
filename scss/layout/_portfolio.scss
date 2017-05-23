@@ -10,4 +10,21 @@
    li h3 {
       margin-top: 1.5em;
    }
+
+   @include mq(tablet) {
+      li {
+         float: left;
+         width: 46%;
+         margin: 2%;
+         font-size: .85em;
+
+         &:nth-child(2n+1) {
+            clear: both;
+         }
+
+         h3 {
+            margin-top: .8em;
+         }
+      }
+   };
 }

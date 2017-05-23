@@ -11,5 +11,9 @@
       float: left;
       width: 46%;
       margin: 2%;
+
+      @include mq(tablet) {
+         width: 21%;
+      };
    }
 }

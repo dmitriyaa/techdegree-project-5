@@ -1,7 +1,16 @@
 .about {
    @extend %clearfix;
+
+   @include mq(tablet) {
+      text-align: left;
+   };
 }
 
 .prof-img {
    max-width: 367px;
+
+   @include mq(tablet) {
+      float: right;
+      padding-left: 1.2em;
+   };
 }
