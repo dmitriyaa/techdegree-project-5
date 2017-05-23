@@ -444,6 +444,9 @@ ul {
   margin-bottom: 50px; }
   .main-container:last-child {
     margin-bottom: 10px; }
+  @media (min-width: 1024px) {
+    .main-container {
+      margin-top: 1em; } }
 
 .main-container,
 .main-container h2 {
@@ -464,6 +467,10 @@ ul {
     .container {
       width: 95%;
       margin: 0 auto; } }
+  @media (min-width: 1024px) {
+    .container {
+      width: 85%;
+      max-width: 1150px; } }
 
 .portfolio {
   padding-top: 2em;
@@ -483,6 +490,13 @@ ul {
         clear: both; }
       .portfolio-list li h3 {
         margin-top: .8em; } }
+  @media (min-width: 1024px) {
+    .portfolio-list li {
+      width: 28.3333%; }
+      .portfolio-list li:nth-child(3n+1) {
+        clear: both; }
+      .portfolio-list li:nth-child(2n+1) {
+        clear: none; } }
 
 .skills {
   border-top: 2px solid #2980b9;
@@ -523,6 +537,9 @@ footer nav {
 .name {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700; }
+  @media (min-width: 1024px) {
+    .name {
+      float: left; } }
 
 .main-nav li {
   background-color: #18222B;
@@ -539,6 +556,9 @@ footer nav {
   .main-nav a:hover {
     font-weight: 700;
     color: #fff; }
+@media (min-width: 1024px) {
+  .main-nav {
+    float: right; } }
 
 .portfolio-list li h3 {
   font-size: 1.6em;
@@ -562,33 +582,5 @@ footer nav {
 .footer-nav {
   text-transform: uppercase;
   font-weight: 700; }
-
-/*-----------------------------------------------
-   Media Queries
------------------------------------------------*/
-/* ---- >769 ---- */
-/* ---- >1024 ---- */
-@media (min-width: 1024px) {
-  .main-container {
-    margin-top: 1em; }
-
-  .container {
-    width: 85%;
-    max-width: 1150px; }
-
-  .name {
-    float: left; }
-
-  .main-nav {
-    float: right; }
-
-  .portfolio-list li {
-    width: 28.3333%; }
-
-  .portfolio-list li:nth-child(3n+1) {
-    clear: both; }
-
-  .portfolio-list li:nth-child(2n+1) {
-    clear: none; } }
 
 /*# sourceMappingURL=application.css.map */

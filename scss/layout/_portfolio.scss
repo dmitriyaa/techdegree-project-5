@@ -26,5 +26,20 @@
             margin-top: .8em;
          }
       }
+   }
+
+   @include mq(desktop) {
+      li {
+         width: 28.3333%;
+
+         &:nth-child(3n+1){
+            clear: both;
+         }
+
+         &:nth-child(2n+1){
+            clear: none;
+         }
+      }
    };
+
 }

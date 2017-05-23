@@ -5,6 +5,10 @@
    &:last-child {
       margin-bottom: 10px;
    }
+
+   @include mq(desktop) {
+      margin-top: 1em;
+   };
 }
 
 .main-container,
@@ -29,5 +33,10 @@
    @include mq(tablet) {
       width: 95%;
       margin: 0 auto;
+   };
+
+   @include mq(desktop) {
+      width: 85%;
+      max-width: 1150px;
    };
 }
