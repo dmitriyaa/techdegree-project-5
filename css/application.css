@@ -440,6 +440,9 @@ ul {
   font-weight: 600;
   display: block;
   padding: 13px 15px; }
+  .main-nav a:hover {
+    font-weight: 700;
+    color: #fff; }
 
 .prof-img {
   max-width: 367px; }
@@ -447,9 +450,8 @@ ul {
 .main-container {
   margin-top: 50px;
   margin-bottom: 50px; }
-
-.main-container:last-child {
-  margin-bottom: 10px; }
+  .main-container:last-child {
+    margin-bottom: 10px; }
 
 .main-container,
 .main-container h2 {
@@ -459,10 +461,6 @@ ul {
 .main-container h2,
 .main-container a {
   color: #feeb6e; }
-
-.main-nav a:hover {
-  font-weight: 700;
-  color: #fff; }
 
 .secondary-container {
   background-color: #fff; }
@@ -492,15 +490,13 @@ ul {
   width: 46%;
   margin: 2%; }
 
-.contact ul li {
+.contact li {
   font-size: 1.3em; }
-
-.contact li a {
-  color: #feeb6e;
-  border-bottom: 2px dotted #feeb6e; }
-
-.contact li a:hover {
-  border-bottom: 3px dotted #feeb6e; }
+  .contact li a {
+    color: #feeb6e;
+    border-bottom: 2px dotted #feeb6e; }
+    .contact li a:hover {
+      border-bottom: 3px dotted #feeb6e; }
 
 .footer-name {
   float: left;

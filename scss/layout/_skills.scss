@@ -6,10 +6,10 @@
 
 .skills-list {
    @extend %clearfix;
-}
 
-.skills-list li {
-   float: left;
-   width: 46%;
-   margin: 2%;
+   li {
+      float: left;
+      width: 46%;
+      margin: 2%;
+   }
 }

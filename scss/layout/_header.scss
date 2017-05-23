@@ -16,9 +16,14 @@
    }
 
    a {
-   text-transform: uppercase;
-   font-weight: 600;
-   display: block;
-   padding: 13px 15px;
+      text-transform: uppercase;
+      font-weight: 600;
+      display: block;
+      padding: 13px 15px;
+
+      &:hover {
+         font-weight: 700;
+         color: #fff;
+      }
    }
 }
