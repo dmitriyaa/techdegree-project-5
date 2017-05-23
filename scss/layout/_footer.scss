@@ -1,19 +1,20 @@
 .footer-name {
    float: left;
+   font-size: 1.3em;
 }
 
 .footer-nav {
    margin: 0;
    float: right;
+   text-transform: uppercase;
+   font-weight: 700;
 }
 
 footer nav {
-   @extend %clearfix;
    border-top: 1px solid #fff;
    padding-top: 1.5em;
 }
 
-//state
 .footer-desctop {
    display: none;
 }
