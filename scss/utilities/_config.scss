@@ -1,0 +1,28 @@
+////Variables
+//Descriptionve color variables
+$white: #fff;
+$black: #000;
+
+$mine-shaft   : #3a3a3a;
+$mariner      : #2980b9;
+$kournikova   : #feeb6e;
+$mirage       : #18222B;
+
+//Functional color variables
+$color-prim           : $mariner;
+$color-sec            : $kournikova;
+
+$color-text-light     : $white;
+$color-text-base      : $mine-shaft;
+$color-text-dark      : $black;
+
+$color-border-light   : $white;
+$color-border-base    : $mariner;
+
+$color-link-default   : $mine-shaft;
+$color-link-themed    : $kournikova;
+$color-link-highlited : $white;
+
+$color-body-light     : $white;
+$color-body-base      : $mariner;
+$color-body-dark      : $mirage;

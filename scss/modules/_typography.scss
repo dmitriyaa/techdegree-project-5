@@ -5,7 +5,7 @@
 
 .main-nav {
    li {
-      background-color: #18222B;
+      background-color: $color-body-dark;
       margin: .5em .5em;
    }
 
@@ -17,7 +17,7 @@
 
       &:hover {
          font-weight: 700;
-         color: #fff;
+         color: $white;
       }
    }
 }
@@ -34,11 +34,11 @@
       font-size: 1.3em;
 
       a {
-         color: #feeb6e;
-         border-bottom: 2px dotted #feeb6e;
+         color: $color-link-themed;
+         border-bottom: 2px dotted $color-link-themed;
 
          &:hover {
-            border-bottom: 3px dotted #feeb6e;
+            border-bottom: 3px dotted $color-link-themed;
          }
       }
    }

@@ -9,7 +9,7 @@
 
 footer nav {
    @extend %clearfix;
-   border-top: 1px solid #fff;
+   border-top: 1px solid $color-border-light;
    padding-top: 1.5em;
 }
 
