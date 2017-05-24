@@ -11,7 +11,7 @@ body {
 }
 
 p {
-	font-size: 1.2em;
+   @include text(1.2em);
 	margin-bottom: 1.8em;
 }
 

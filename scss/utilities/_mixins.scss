@@ -12,3 +12,10 @@
       @error "Whoops! No value could be retrived for '#{$break}'";
    }
 }
+
+//Text mixin
+@mixin text($font-size, $font-weight: null, $color: null) {
+   font-size: $font-size;
+   font-weight: $font-weight;
+   color: $color;
+}

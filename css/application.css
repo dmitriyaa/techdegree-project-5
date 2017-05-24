@@ -461,18 +461,6 @@ ul {
     .main-container {
       margin-top: 1em; } }
 
-.main-container,
-.main-container h2 {
-  color: #fff; }
-
-.main-container h1,
-.main-container h2,
-.main-container a {
-  color: #feeb6e; }
-
-.secondary-container {
-  background-color: #fff; }
-
 .portfolio {
   padding-top: 2em;
   padding-bottom: 1em; }
@@ -534,6 +522,18 @@ footer nav {
 @media (min-width: 768px) {
   .footer-mobile {
     display: none; } }
+
+.main-container,
+.main-container h2 {
+  color: #fff; }
+
+.main-container h1,
+.main-container h2,
+.main-container a {
+  color: #feeb6e; }
+
+.secondary-container {
+  background-color: #fff; }
 
 .name {
   font-family: 'Josefin Sans', sans-serif;
