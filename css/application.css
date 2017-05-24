@@ -433,7 +433,8 @@ ul {
     text-align: left; } }
 
 .prof-img {
-  max-width: 367px; }
+  width: 367px;
+  max-width: 100%; }
   @media (min-width: 768px) {
     .prof-img {
       float: right;
