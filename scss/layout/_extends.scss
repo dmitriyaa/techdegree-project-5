@@ -9,6 +9,6 @@
 
    @include mq(desktop) {
       width: 85%;
-      max-width: 1150px;
+      max-width: $max-width;
    };
 }
