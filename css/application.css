@@ -474,7 +474,7 @@ ul {
       float: left;
       width: 46%;
       margin: 2%;
-      font-size: .85em; }
+      font-size: 0.85em; }
       .portfolio-list li:nth-child(2n+1) {
         clear: both; }
       .portfolio-list li h3 {

@@ -1,12 +1,12 @@
 .main-container,
 .main-container h2 {
-   color: $white;
+   @include text($color: $white);
 }
 
 .main-container h1,
 .main-container h2,
 .main-container a {
-   color: $color-sec;
+   @include text($color: $color-sec);
 }
 
 .secondary-container {
@@ -15,7 +15,7 @@
 
 .name {
    font-family: 'Josefin Sans', sans-serif;
-   font-weight: 700;
+   @include text($font-weight: 700);
 
    @include mq(desktop) {
       float: left;
@@ -52,14 +52,13 @@
 
 .portfolio-list {
    li h3 {
-      font-size: 1.6em;
-      font-weight: 600;
+      @include text(1.6em, 600);
    }
 }
 
 .contact {
    li {
-      font-size: 1.3em;
+      @include text(1.3em);
 
       a {
          color: $color-link-themed;
@@ -78,7 +77,7 @@
 }
 
 .footer-name {
-   font-size: 1.3em;
+   @include text(1.3em);
 }
 
 .footer-nav {
