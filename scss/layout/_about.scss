@@ -1,4 +1,5 @@
 .about {
+   @extend %container;
    @extend %clearfix;
 
    @include mq(tablet) {

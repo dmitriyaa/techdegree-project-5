@@ -428,6 +428,18 @@ ul {
   list-style: none;
   padding-left: 0; }
 
+.main-header, .about, .portfolio, .skills, .contact, footer {
+  padding-right: 1em;
+  padding-left: 1em; }
+  @media (min-width: 768px) {
+    .main-header, .about, .portfolio, .skills, .contact, footer {
+      width: 95%;
+      margin: 0 auto; } }
+  @media (min-width: 1024px) {
+    .main-header, .about, .portfolio, .skills, .contact, footer {
+      width: 85%;
+      max-width: 1150px; } }
+
 @media (min-width: 768px) {
   .about {
     text-align: left; } }
@@ -460,18 +472,6 @@ ul {
 
 .secondary-container {
   background-color: #fff; }
-
-.container {
-  padding-right: 1em;
-  padding-left: 1em; }
-  @media (min-width: 768px) {
-    .container {
-      width: 95%;
-      margin: 0 auto; } }
-  @media (min-width: 1024px) {
-    .container {
-      width: 85%;
-      max-width: 1150px; } }
 
 .portfolio {
   padding-top: 2em;

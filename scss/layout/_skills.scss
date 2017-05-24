@@ -1,4 +1,6 @@
 .skills {
+   @extend %container;
+
    border-top: 2px solid $color-border-base;
    padding-top: 1em;
    padding-bottom: 2em;

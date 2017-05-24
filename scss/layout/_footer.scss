@@ -1,3 +1,7 @@
+footer {
+   @extend %container;
+}
+
 .footer-name {
    float: left;
 }
