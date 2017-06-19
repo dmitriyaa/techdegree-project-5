@@ -8,7 +8,7 @@ In this project I converted a CSS stylesheet to Sass.
 * I refactored the stylesheet from the [Build a Responsive Layout](https://github.com/dmitriyaa/techdegree-project-2) project using SCSS partials, variables, extends, and mixins.
 * I also utilized the advantages of [BEM](https://en.bem.info/methodology/) methodology naming convention and [SMACSS](https://smacss.com) methodology project structure.
 
-## Screenshot
+## Screenshots
 ![creenshot of the website](https://raw.githubusercontent.com/dmitriyaa/storage/master/screenshot--techdegree-project-5.png)
 
 Here is a [link](https://dmitriyaa.github.io/techdegree-project-5) to live demo.
