@@ -5,6 +5,7 @@ One of 12 **_Front End Web Development_** projects at [Treehouse Techdegree Cour
 ## Project Desription
 In this project I converted a CSS stylesheet to Sass.
 I refactored the stylesheet from the [Build a Responsive Layout](https://github.com/dmitriyaa/techdegree-project-2) project using SCSS partials, variables, extends, and mixins.
+
 I also utilized the advantages of [BEM](https://en.bem.info/methodology/) methodology naming convention and [SMACSS](https://smacss.com) methodology project structure.
 
 ## Screenshot
